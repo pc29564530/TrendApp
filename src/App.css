@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* App.css */
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: #d1641c;
+  /* color:aqua; */
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.map {
+  width: 100%;
+  height: 750px;
+}
+
+/* .subContainer {
+  flex-direction: row;
+} */
+
+.subContainer1 {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+.subContainer2 {
+  width: 30%;
+  float: right;
+}
+
+.container {
+  display: flex;
+}
+
+.modal {
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.modal textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.modal button {
+  background-color: #4caf50;
   color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.mapboxgl-marker {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border:1px solid gray;
+  background-color:lightblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+

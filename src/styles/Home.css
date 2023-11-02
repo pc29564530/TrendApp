@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    flex-direction: row;
+}
+
+.map {
+    flex: 3;
+    background-color: yellow;
+}
+
+.postScreen {
+    flex: 1.5;
+    background-color: red;
+}

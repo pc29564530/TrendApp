@@ -1,0 +1,12 @@
+.homeScreen {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    flex: 1;
+    height: 6vh;
+    background-color: gainsboro;
+}
+.home {
+    flex: 3;
+}
